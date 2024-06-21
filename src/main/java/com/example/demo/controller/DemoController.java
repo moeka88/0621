@@ -80,7 +80,7 @@ public class DemoController {
 	@GetMapping("/test2")
 	public Test check() {
 		Test test = new Test();
-		test.setName("TEBASAKI");
+		test.setName("TEBASAKI1234");
 		test.setScore(100);
 		return test;
 		}
